@@ -1,0 +1,46 @@
+{
+  "name": "metrc-formul8-os-mcp",
+  "version": "0.1.0",
+  "description": "MCP Server for METRC cannabis tracking API",
+  "type": "module",
+  "main": "server.js",
+  "license": "MIT",
+  "author": "Staqs, Inc. (https://staqs.io)",
+  "contributors": [
+    {
+      "name": "Staqs, Inc.",
+      "url": "https://staqs.io"
+    },
+    {
+      "name": "Formul8",
+      "url": "https://formul8.ai"
+    },
+    {
+      "name": "UMB Advisors",
+      "url": "https://umbadvisors.com"
+    }
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node serve.js",
+    "test": "node test/test-server.mjs",
+    "test:unit": "node --test \"test/unit/*.test.mjs\"",
+    "populate-sandbox": "node scripts/populate-sandbox.mjs",
+    "populate-lab-sandbox": "node scripts/populate-lab-sandbox.mjs",
+    "populate-simulated-year": "node scripts/populate-simulated-year.mjs",
+    "seed:probe": "node scripts/probe-facilities.mjs",
+    "seed:demo": "node scripts/seed-demo.mjs",
+    "seed:co": "node scripts/seed-demo.mjs --state CO",
+    "seed:ma": "node scripts/seed-demo.mjs --state MA"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}

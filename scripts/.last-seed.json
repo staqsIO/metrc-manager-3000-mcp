@@ -1,0 +1,360 @@
+{
+  "runId": "dmm5au968",
+  "timestamp": "2026-02-27T19:46:32.083Z",
+  "statesSeeded": [
+    "MA"
+  ],
+  "elapsedSeconds": 232,
+  "results": [
+    {
+      "state": "MA",
+      "facilities": [
+        {
+          "name": "Sandbox Craft Marijuana Cooperative",
+          "license": "SF-SBX-MA-1-3301",
+          "type": "Cultivator",
+          "canTestPackages": false,
+          "canGrowPlants": true,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Independent Testing Laboratory",
+          "license": "SF-SBX-MA-2-3301",
+          "type": "Testing Lab",
+          "canTestPackages": true,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Courier",
+          "license": "SF-SBX-MA-3-3301",
+          "type": "",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Cultivator",
+          "license": "SF-SBX-MA-4-3301",
+          "type": "Cultivator",
+          "canTestPackages": false,
+          "canGrowPlants": true,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Delivery Operator",
+          "license": "SF-SBX-MA-5-3301",
+          "type": "",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Microbusiness",
+          "license": "SF-SBX-MA-6-3301",
+          "type": "Cultivator",
+          "canTestPackages": false,
+          "canGrowPlants": true,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Product Manufacturer",
+          "license": "SF-SBX-MA-7-3301",
+          "type": "Manufacturer",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Research Facility",
+          "license": "SF-SBX-MA-8-3301",
+          "type": "Testing Lab",
+          "canTestPackages": true,
+          "canGrowPlants": true,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Retailer",
+          "license": "SF-SBX-MA-9-3301",
+          "type": "Dispensary",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Marijuana Transporter with Other Existing ME License",
+          "license": "SF-SBX-MA-10-3301",
+          "type": "",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Medical Independent Testing Laboratory",
+          "license": "SF-SBX-MA-11-3301",
+          "type": "Testing Lab",
+          "canTestPackages": true,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Medical Marijuana Cultivator",
+          "license": "SF-SBX-MA-12-3301",
+          "type": "Cultivator",
+          "canTestPackages": false,
+          "canGrowPlants": true,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Medical Marijuana Product Manufacturer",
+          "license": "SF-SBX-MA-13-3301",
+          "type": "Manufacturer",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Medical Marijuana Retailer",
+          "license": "SF-SBX-MA-14-3301",
+          "type": "",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Microbusiness Delivery",
+          "license": "SF-SBX-MA-15-3301",
+          "type": "Cultivator",
+          "canTestPackages": false,
+          "canGrowPlants": true,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Social Consumption Establishment",
+          "license": "SF-SBX-MA-16-3301",
+          "type": "Dispensary",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Standards Laboratory",
+          "license": "SF-SBX-MA-17-3301",
+          "type": "Testing Lab",
+          "canTestPackages": true,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        },
+        {
+          "name": "Sandbox Third Party Marijuana Transporter",
+          "license": "SF-SBX-MA-18-3301",
+          "type": "",
+          "canTestPackages": false,
+          "canGrowPlants": false,
+          "canTransferFromExternal": false,
+          "canCreateOpeningBalancePackages": false
+        }
+      ],
+      "seeders": {
+        "cultivator_0": {
+          "strainsTotal": 26,
+          "plantsPlanted": 4,
+          "plantsVegetative": 4,
+          "plantsFlowering": 2,
+          "plantsHarvested": 2,
+          "packagesCreated": 8
+        },
+        "cultivator_1": {
+          "strainsTotal": 23,
+          "plantsPlanted": 4,
+          "plantsVegetative": 4,
+          "plantsFlowering": 2,
+          "plantsHarvested": 2,
+          "packagesCreated": 8
+        },
+        "cultivator_2": {
+          "strainsTotal": 22,
+          "plantsPlanted": 4,
+          "plantsVegetative": 4,
+          "plantsFlowering": 2,
+          "plantsHarvested": 2,
+          "packagesCreated": 8
+        },
+        "cultivator_3": {
+          "strainsTotal": 30,
+          "plantsPlanted": 4,
+          "plantsVegetative": 4,
+          "plantsFlowering": 2,
+          "plantsHarvested": 0,
+          "packagesCreated": 0
+        },
+        "cultivator_4": {
+          "strainsTotal": 22,
+          "plantsPlanted": 4,
+          "plantsVegetative": 4,
+          "plantsFlowering": 2,
+          "plantsHarvested": 2,
+          "packagesCreated": 8
+        },
+        "submitTesting_0": {
+          "submitted": 0,
+          "skipped": 4
+        },
+        "submitTesting_1": {
+          "submitted": 0,
+          "skipped": 4
+        },
+        "submitTesting_2": {
+          "submitted": 0,
+          "skipped": 4
+        },
+        "submitTesting_3": {
+          "submitted": 0,
+          "skipped": 0
+        },
+        "submitTesting_4": {
+          "submitted": 0,
+          "skipped": 4
+        },
+        "labPackages": {
+          "packagesFound": 4,
+          "strategy": "mini_cultivator",
+          "packageLabels": [
+            "AAAFF03000006D0000000041",
+            "AAAFF03000006D0000000042",
+            "AAAFF03000006D0000000043",
+            "AAAFF03000006D0000000044"
+          ]
+        },
+        "lab": {
+          "tested": 4,
+          "passed": 2,
+          "failed": 2,
+          "skipped": 0
+        },
+        "transfersToLab_0": {
+          "transferred": 4,
+          "skipped": 0
+        },
+        "transfers_0": {
+          "transferred": 0,
+          "skipped": 4
+        },
+        "transfersToLab_1": {
+          "transferred": 4,
+          "skipped": 0
+        },
+        "transfers_1": {
+          "transferred": 0,
+          "skipped": 4
+        },
+        "transfersToLab_2": {
+          "transferred": 4,
+          "skipped": 0
+        },
+        "transfers_2": {
+          "transferred": 0,
+          "skipped": 4
+        },
+        "transfersToLab_3": {
+          "transferred": 0,
+          "skipped": 0
+        },
+        "transfers_3": {
+          "transferred": 0,
+          "skipped": 0
+        },
+        "transfersToLab_4": {
+          "transferred": 4,
+          "skipped": 0
+        },
+        "transfers_4": {
+          "transferred": 0,
+          "skipped": 4
+        },
+        "dispensaryPackages": {
+          "packagesFound": 0,
+          "strategy": "none",
+          "packageLabels": []
+        },
+        "dispensary": {
+          "receiptsCreated": 0,
+          "skipped": 0
+        },
+        "activity_cultivator_0": {
+          "adjustments": 5,
+          "locationChanges": 3,
+          "harvestWaste": 2,
+          "harvestsFinished": 0,
+          "packagesFinished": 2,
+          "remediations": 0
+        },
+        "activity_cultivator_1": {
+          "adjustments": 4,
+          "locationChanges": 3,
+          "harvestWaste": 1,
+          "harvestsFinished": 0,
+          "packagesFinished": 2,
+          "remediations": 0
+        },
+        "activity_cultivator_2": {
+          "adjustments": 5,
+          "locationChanges": 3,
+          "harvestWaste": 1,
+          "harvestsFinished": 0,
+          "packagesFinished": 2,
+          "remediations": 0
+        },
+        "activity_cultivator_3": {
+          "adjustments": 0,
+          "locationChanges": 0,
+          "harvestWaste": 0,
+          "harvestsFinished": 0,
+          "packagesFinished": 0,
+          "remediations": 0
+        },
+        "activity_cultivator_4": {
+          "adjustments": 5,
+          "locationChanges": 3,
+          "harvestWaste": 1,
+          "harvestsFinished": 0,
+          "packagesFinished": 2,
+          "remediations": 0
+        },
+        "activity_lab": {
+          "adjustments": 3,
+          "locationChanges": 3,
+          "harvestWaste": 1,
+          "harvestsFinished": 0,
+          "packagesFinished": 2,
+          "remediations": 0
+        },
+        "activity_dispensary": {
+          "adjustments": 0,
+          "locationChanges": 0,
+          "harvestWaste": 0,
+          "harvestsFinished": 0,
+          "packagesFinished": 0,
+          "remediations": 0
+        }
+      }
+    }
+  ]
+}
