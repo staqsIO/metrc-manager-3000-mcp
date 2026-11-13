@@ -8,8 +8,8 @@ layout: default
 ## 1. Install
 
 ```bash
-git clone git@github.com:staqsIO/metrc-formul8-os-mcp.git
-cd metrc-formul8-os-mcp
+git clone git@github.com:staqsIO/metrc-manager-3000-mcp.git
+cd metrc-manager-3000-mcp
 npm ci
 ```
 
@@ -32,7 +32,7 @@ For production, point `METRC_API_URL` to the appropriate state METRC API and use
   "mcpServers": {
     "metrc": {
       "command": "node",
-      "args": ["/absolute/path/to/metrc-formul8-os-mcp/server.js"],
+      "args": ["/absolute/path/to/metrc-manager-3000-mcp/server.js"],
       "env": {
         "METRC_API_URL": "https://sandbox-api-co.metrc.com",
         "METRC_VENDOR_API_KEY": "<vendor key>",

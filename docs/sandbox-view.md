@@ -150,7 +150,7 @@ Flow in the sandbox and where to use tools/skills:
 
 Seeds the Colorado sandbox with **12 strains** and a full lifecycle (plantings → flowering → harvest → packages → finish) where the API allows:
 
-- **Run:** `npm run populate-sandbox` (see [README](https://github.com/staqsIO/metrc-formul8-os-mcp#populate-sandbox-full-lifecycle)).
+- **Run:** `npm run populate-sandbox` (see [README](https://github.com/staqsIO/metrc-manager-3000-mcp#populate-sandbox-full-lifecycle)).
 - **Requires:** `.env` with `METRC_VENDOR_API_KEY` and `METRC_USER_API_KEY`.
 - **Creates:** Strains (SBX Strain 1–12), optional plant location, plantings (if ForPlants location exists), harvest(s), item(s), packages, and finishes packages.
 - **Default facility:** CO-21 (Retail Cultivation) — has full ForPlants location types and item categories. Override with `METRC_LICENSE` env var. Avoid CO-1 (Accelerator) which has crippled categories.
