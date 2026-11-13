@@ -141,7 +141,7 @@ async function discoverFacilities(api) {
 
 /**
  * Classify facility type from METRC FacilityType flags.
- * Mirrors classifyFacility() from formul8-metrc-platform/scripts/seed-sandbox.ts.
+ * Mirrors classifyFacility() from metrc-manager-3000-platform/scripts/seed-sandbox.ts.
  */
 function classifyFacilityType(ft) {
   if (!ft || typeof ft !== 'object') return '';

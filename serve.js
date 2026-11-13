@@ -42,7 +42,7 @@ export function createApp() {
     try {
       if (req.method === 'GET' && (path === '/' || path === '/health')) {
         res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ status: 'ok', service: 'metrc-formul8-os-mcp' }));
+        res.end(JSON.stringify({ status: 'ok', service: 'metrc-manager-3000-mcp' }));
       } else if ((req.method === 'POST' || req.method === 'OPTIONS') && (path === '/' || path === '/mcp' || path === '/api/mcp')) {
         await sendWeb(res, await mcpHandler(await toWebRequest(req, port)));
       } else if ((req.method === 'POST' || req.method === 'OPTIONS') && path === '/api/chat') {
@@ -76,5 +76,5 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const server = createServer(createApp());
   server.requestTimeout = 30_000;
   server.headersTimeout = 10_000;
-  server.listen(PORT, () => console.log(`metrc-formul8-os-mcp listening on :${PORT}`));
+  server.listen(PORT, () => console.log(`metrc-manager-3000-mcp listening on :${PORT}`));
 }

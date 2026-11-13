@@ -7,7 +7,7 @@ It runs two ways: over stdio for desktop MCP clients, or as a small HTTP service
 ## Claude Desktop (stdio)
 
 ```bash
-git clone git@github.com:staqsIO/metrc-formul8-os-mcp.git && cd metrc-formul8-os-mcp && npm ci
+git clone git@github.com:staqsIO/metrc-manager-3000-mcp.git && cd metrc-manager-3000-mcp && npm ci
 ```
 
 Add to your Claude Desktop (or Cursor) MCP config:
@@ -17,7 +17,7 @@ Add to your Claude Desktop (or Cursor) MCP config:
   "mcpServers": {
     "metrc": {
       "command": "node",
-      "args": ["/absolute/path/to/metrc-formul8-os-mcp/server.js"],
+      "args": ["/absolute/path/to/metrc-manager-3000-mcp/server.js"],
       "env": {
         "METRC_API_URL": "https://sandbox-api-co.metrc.com",
         "METRC_VENDOR_API_KEY": "<vendor key>",
@@ -72,7 +72,7 @@ Request bodies are capped at 1 MB (413 beyond that).
 
 The bundled `/chat` and `/sandbox` demo pages do not send `MCP_API_KEY`. Leave `MCP_API_KEY` unset when using them, or front them with your own authentication.
 
-This server is part of the Metrc-Formul8-OS stack: from that repository, `docker compose --profile mcp up` starts it alongside the other services.
+This server is part of the METRC Manager 3000 stack: from that repository, `docker compose --profile mcp up` starts it alongside the other services.
 
 ## Known limitation
 
@@ -101,7 +101,7 @@ Further reference lives in `docs/` (tools, skills, framework, sandbox view).
 
 ## Contributors
 
-Created by [Staqs](https://github.com/staqsIO), [Formul8](https://github.com/F8ai) and [UMB Advisors](https://github.com/UMB-Advisors). See the [root repository](https://github.com/staqsIO/metrc-formul8-os#contributors) for details.
+Created by [Staqs](https://github.com/staqsIO), [Waev Tech](https://github.com/waevtech) and [UMB Advisors](https://github.com/UMB-Advisors). See the [root repository](https://github.com/staqsIO/metrc-manager-3000#contributors) for details.
 
 ## License
 
